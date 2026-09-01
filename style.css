@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background: #f3e5d0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4b2e20;
+}
+
+.login-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.login-box {
+    max-width: 400px;
+    margin: auto;
+    background: #fffaf3;
+    padding: 38px 28px;
+    border-radius: 18px;
+    border: 1px solid #d6bfa5;
+    box-shadow: 0 8px 25px rgba(75, 46, 32, 0.18);
+}
+
+h1 {
+    text-align: center;
+    font-size: 29px;
+    color: #5a3825;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 28px;
+    color: #9a7658;
+    font-size: 16px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #6b422c;
+    font-size: 23px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #5a3825;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cdb49b;
+    border-radius: 9px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background: #fffdf9;
+    color: #4b2e20;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8b5e3c;
+    box-shadow: 0 0 5px rgba(139, 94, 60, 0.25);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 26px;
+    border: none;
+    border-radius: 9px;
+    background: #7b4b2a;
+    color: #fffaf3;
+    font-size: 17px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #5f371f;
+}
+
+#message {
+    text-align: center;
+    margin-top: 15px;
+    color: #9b4a32;
+}
+
+.register-text {
+    text-align: center;
+    margin-top: 22px;
+    color: #765b47;
+    font-size: 15px;
+}
+
+.register-text a {
+    color: #7b4b2a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input {
+    padding-right: 50px;
+}
+
+.eye-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    color: #6b422c;
+    font-size: 18px;
+    border: none;
+    box-shadow: none;
+}
+
+.eye-button:hover {
+    background: transparent;
+}
