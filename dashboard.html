@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - Lecture Reminder System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="login-box dashboard-box">
+
+            <h1>Lecture Reminder</h1>
+            <p class="subtitle">Dashboard</p>
+
+            <p id="welcomeMessage" class="welcome-message">
+                Welcome!
+            </p>
+
+            <div class="dashboard-cards">
+
+                <div class="dashboard-card">
+                    <div class="card-icon">🕐</div>
+                    <h2>Today's Lectures</h2>
+                    <p id="todayCount">0 lectures</p>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="card-icon">📅</div>
+                    <h2>Upcoming Lectures</h2>
+                    <p id="upcomingCount">0 lectures</p>
+                </div>
+
+            </div>
+
+            <div class="dashboard-menu">
+
+                <button type="button" class="dashboard-button">
+                    🕐 Today's Lectures
+                </button>
+
+                <button type="button" class="dashboard-button">
+                    📅 Upcoming Lectures
+                </button>
+
+                <button type="button" class="dashboard-button">
+                    ➕ Add Lecture
+                </button>
+
+                <button type="button" class="dashboard-button">
+                    ✏️ Edit Lecture
+                </button>
+
+                <button type="button" class="dashboard-button">
+                    🗑️ Delete Lecture
+                </button>
+
+                <button type="button" class="dashboard-button">
+                    📋 Manage Lectures
+                </button>
+
+                <button
+                    type="button"
+                    id="logoutButton"
+                    class="logout-button">
+                    🚪 Logout
+                </button>
+
+            </div>
+
+            <p id="message"></p>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
